@@ -18,5 +18,6 @@
 11. generate controller and view home <br>
    => rails g controller homes index <br>
 12. setting controller home only access user <br>
+   => add before_action :authenticate_user!
 13. setting route <br>
 14. rails s
